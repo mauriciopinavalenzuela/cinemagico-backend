@@ -1,4 +1,7 @@
-class Usuario {
+import { PlanSuscripcion } from './planSuscripcion'; 
+import { Pelicula } from './pelicula';
+
+export class Usuario {
     id: number;
     nombre: string;
     correoElectronico: string;

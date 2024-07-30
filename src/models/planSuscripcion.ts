@@ -1,4 +1,4 @@
-class PlanSuscripcion {
+export class PlanSuscripcion {
     id: number;
     nombre: string;
     precio: number;

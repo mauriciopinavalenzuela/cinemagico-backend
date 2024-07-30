@@ -1,4 +1,4 @@
-class Pelicula {
+export class Pelicula {
     id: number;
     titulo: string;
     genero: "Animación" | "Fantasía" | "Drama" | "Comedia" | "Aventura" | "Terror" | "Ciencia Ficción";
