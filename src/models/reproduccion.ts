@@ -1,4 +1,6 @@
-class Reproduccion {
+import { Pelicula } from "./pelicula";
+
+export class Reproduccion {
     id: number;
     pelicula: Pelicula;
     fecha: Date;
